@@ -8,7 +8,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Authorisation page</title>
+    <style>
+      #Logout{
+          margin-left: 90%;
+          margin-top: 2%; 
+        }
+        body{
+            /* font-family: Georgia, serif; */
+            font-family: 'Courier New', monospace;
+        }
+        tr{
+          
+          border: 3px solid whitesmoke;
+        }
+        th{
+          color:coral;
+        }
+
+        </style>
   </head>
   <body>
     <nav>
@@ -22,18 +40,27 @@
         </ul>
     </nav>
 
-    <div class="row"  style="margin-top:3%; margin-left:3%;">
-  <div class="column">
-    <img src="Images\Apple.jpg" alt="Snow" style="width:50%; height:60%;">
-  </div>
-  <div class="column">
-    <img src="Images\Melons.png" alt="Forest" style="width:50%; height:60%;">
-  </div>
-  <div class="column">
-    <img src="Images\Pinapple.jfif" alt="Mountains" style="width:50%; height:60%;">
-  </div>
-</div>
+    <a href="Addform.php"  id="Logout" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Add Product</a>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Product Name</th>
+          <th scope="col">Prices(GHS)</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Description</th>
+          <!-- <th scope="col">Image</th> -->
+          <th scope="col"> Make Available</th>
+          <th scope="col">Make Unavialable</th>
+        </tr>
+      </thead>
+      <tbody>
+      <?php
+      require ("../Backend/ShowItemAdded.php");
+      Show();
+      ?>
 
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

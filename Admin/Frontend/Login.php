@@ -8,12 +8,6 @@
     <title>LOGIN</title>
 </head>
 <body>
-    <header>
-
-
-      
-
-    </header>
 
     <div class="Form">
           
@@ -23,10 +17,10 @@
                   <p> Fill to Login as an Admin</p>
             </div>
             <label for="email" style="margin-left:7%;" >Email </label><br>
-            <input type="email" placeholder="Email" name="email" required><br>
+            <input type="email"  name="email" required><br>
 
             <label for="psw" style="margin-left:7%;" >Password</label><br>
-            <input type="password" placeholder="Email" name="psw" required><br><br>
+            <input type="password"  name="psw" required><br><br>
 
             <button  type="submit" id="Log"  name= "LoginSubmit" > Submit</button><br>
         </form>
