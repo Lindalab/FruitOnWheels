@@ -5,18 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="productstyle.css">
+    <link rel="icon" href="Images\Logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Authorisation page</title>
     <style>
       #Logout{
-          margin-left: 90%;
-          margin-top: 2%; 
+          margin-left: 80%;
+          margin-top: 2%;
+          
         }
         body{
             /* font-family: Georgia, serif; */
             font-family: 'Courier New', monospace;
+        
         }
         tr{
           
@@ -25,13 +28,36 @@
         th{
           color:coral;
         }
+        #navimg{
+          margin-right: 80%;
+          display:inline-block;
+          width:60px;
+          height:60px;
+          margin-top: 5px;
+          
+        }
+        nav{
+          height: 70px;
+          
+        }
+        .nav-item{
+          margin-top:15px;
+        }
+        .table{
+          margin-top: 15px;
+          
+        }
 
         </style>
   </head>
   <body>
+  
+
     <nav>
+      
         <ul class="nav justify-content-end">
-            <li class="nav-item">
+          <img src="Images\Logo.png" id="navimg" alt="Company Logo" >
+           <li class="nav-item">
                 <a class="nav-link active" href="#">PRODUCT</a>
             </li>
             <li class="nav-item">
