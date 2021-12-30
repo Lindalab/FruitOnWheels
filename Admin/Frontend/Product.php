@@ -72,7 +72,7 @@
         <tr>
           <th scope="col">Product Name</th>
           <th scope="col">Prices(GHS)</th>
-          <th scope="col">Quantity</th>
+          <th scope="col">Quantity Available</th>
           <th scope="col">Description</th>
           <!-- <th scope="col">Image</th> -->
           <th scope="col"> Make Available</th>

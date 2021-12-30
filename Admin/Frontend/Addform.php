@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="Images\Logo.png">
     <!-- <link rel="stylesheet" href="productstyle.css"> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -94,7 +95,7 @@
                   <label for="pdtprice">Product Price (GHS) </label><br>
                   <input type="text"  name="pdtprice"><br>
 
-                  <label for="pdtquantity">Quantity</label><br>
+                  <label for="pdtquantity">Quantity Available</label><br>
                   <input type="text"  name="pdtquantity"><br>
 
                   <label for="pdtdes">Description</label><br>

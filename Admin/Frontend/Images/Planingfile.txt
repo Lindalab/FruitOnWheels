@@ -1,0 +1,3 @@
+Purchaing tab on product page
+Create purchase table ( productid, puchase id and customerid)
+show the current status of quantity purchased
