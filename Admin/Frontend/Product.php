@@ -48,6 +48,10 @@
           
         }
 
+        a:hover, a:active { 
+            color: white;
+        }
+
         </style>
   </head>
   <body>
@@ -63,6 +67,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">ORDER</a>
             </li>
+            
         </ul>
     </nav>
 
