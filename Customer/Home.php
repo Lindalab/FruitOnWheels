@@ -118,7 +118,9 @@
         }
         #Text p{
             color:white;
-            font-weight: bold;
+            /* font-weight: bold; */
+            font-family: Georgia, serif;
+            font-size: large;
 
         }
         
@@ -145,7 +147,7 @@
                     <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">HELP</a>
                 </li>
                 <li class="nav-item">
-                <a href="../Admin/Frontend/Login.php"  id="Logout" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Admin Logins</a>
+                <a href="../Admin/Frontend/Signup.php"  id="Logout" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Admin Logins</a>
                 </li>
             </ul>
         </nav>

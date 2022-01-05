@@ -2,12 +2,12 @@
 
 require ("dbconnection.php");
 
-function Insert($sqlInsert){
+function Insert($sqlInsert,$message){
   require ("dbconnection.php");
   $insertResuilt=$conn->query($sqlInsert);
   if($insertResuilt === True){
       echo "<script>
-              alert('Product upload sucessful');
+              alert('$message');
           </script>";
   }
   else{
